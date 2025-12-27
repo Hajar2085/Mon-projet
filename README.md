@@ -35,12 +35,15 @@
 <!-- Cochez les cases [x] pour les fonctionnalités terminées. Laissez [ ] pour ce qui n'est pas fait. -->
 
 ### Fonctionnalités Principales
-- [ ] **CRUD 1 :** [Nom Entité, ex: Utilisateurs] (Create, Read, Update, Delete)
-- [ ] **CRUD 2 :** [Nom Entité]
-- [ ] **CRUD 3 :** [Nom Entité]
-- [ ] **CRUD 4 :** [Nom Entité]
-- [ ] **CRUD 5 :** [Nom Entité]
-- [ ] **Recherche & Filtres** dans les tableaux
+- [ ] **CRUD 1 :** [Utilisateurs(id, nom, email)] (Create, Read, Update, Delete)
+- [ ] **CRUD 2 :** [Destinations(id, nom, pays, description)]
+- [ ] **CRUD 3 :** [OffreVoyages(id, date_depart, date_retour, prix)]
+- [ ] **CRUD 4 :** [Réservations(id, date, statut)]
+- [ ] **CRUD 5 :** [Avis(id, note, commentaire)]
+- [ ] **Recherche & Filtres** dans les tableau
+      dans tableau Destination:
+      la recherche se fait par  pays
+      le filtre se fait par type 
 - [ ] **Pagination**
 
 ### Dashboard & Data
